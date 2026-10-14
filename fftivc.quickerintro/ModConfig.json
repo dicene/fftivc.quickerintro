@@ -1,0 +1,33 @@
+{
+  "ModId": "fftivc.quickerintro",
+  "ModName": "FFT - Quicker Intros",
+  "ModAuthor": "Dicene",
+  "ModVersion": "1.0.0",
+  "ModDescription": "AutoPick Game Mode and Continue Last Save",
+  "ModDll": "fftivc.quickerintro.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/fftivc.quickerintro.dll",
+  "ModR2RManagedDll64": "x64/fftivc.quickerintro.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "fftivc.quickerintro.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "dicene",
+      "RepositoryName": "fftivc.quickerintro",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "OptionalDependencies": [
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks",
+    "SharedScans.Reloaded",
+    "fftivc.utility.modloader"
+  ],
+  "SupportedAppId": [ "fft_enhanced.exe" ],
+  "ProjectUrl": "https://github.com/dicene/FFT_Egg_Control"
+}
